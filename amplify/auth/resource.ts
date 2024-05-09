@@ -9,7 +9,7 @@ export const auth = defineAuth({
     email: true,
   },
   multifactor: {
-    mode: 'optional',
+    mode: 'OPTIONAL',
     totp: true
   }
 });
